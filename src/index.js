@@ -9,6 +9,8 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  // Strickmode makes it re-render twice in dev mode, but not in depolyed to check for bugs. dont worry about 
+  // console.log re-rendered :3
 );
 
 // If you want to start measuring performance in your app, pass a function
